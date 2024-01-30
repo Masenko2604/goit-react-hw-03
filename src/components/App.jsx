@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import "./App.module.css";
+// import "./App.module.css";
 import { ContactList } from './components/ContactList/ContactList';
 import {ContactForm} from './components/Form/ContactForm';
 import { SearchBox } from './components/SearchBox/SearchBox';
