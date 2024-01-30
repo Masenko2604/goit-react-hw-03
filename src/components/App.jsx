@@ -1,12 +1,9 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import "./App.css";
+// import "./App.css";
 import { ContactList } from "./ContactList/ContactList";
 import { ContactForm } from "./ContactForm/ContactForm";
 import { SearchBox } from "./SearchBox/SearchBox";
-
-
-
 
   
 function App() {
