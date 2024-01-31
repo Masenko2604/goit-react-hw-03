@@ -1,10 +1,80 @@
-ul {
-  list-style-type: none;
-  padding: 0;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: 0096C7;
+  color: #fafcfc;
+  background-color: #fafcfc;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.seachBox {
+a {
+  font-weight: 500;
+  color: #fafcfc;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color:#fafcfc;
+}
+
+body {
+  margin: 0;
   display: flex;
   flex-direction: column;
-  width: 250px;
+  align-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(181, 239, 229, 0.1),
+    rgba(181, 239, 229, 0.1)), url(../src/images/zemle.jpg);
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #fafcfc;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color:#fafcfc;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color:#fafcfc;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color:#fafcfc;
+  }
 }

@@ -2,8 +2,10 @@
   width: 300px;
   margin-bottom: 20px;
   padding: 8px;
-  border: 1px solid black;
+  border: 1px solid #acaeae;
   border-radius: 4px;
+  background-color: #acaeae;
+  color: black;
 
   display: flex;
   flex-direction: column;
